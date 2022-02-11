@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="HomeStyleSheet.css" />
+    <title>Space Tourism</title>
+  </head>
+  <body>
+    <section class="showcase ">
+      <header>
+        <h1 class="logo">TRAVEL TO SPACE</h1>
+        <div class="menu "></div>
+      </header>
+
+      <video src="Media/galexy.mp4" muted autoplay loop></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Never Stop Exploring</h2>
+        <h3>Finished Exploring Earth...</h3>
+        <h3>Don't Stop, Start Exploring Space</h3>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita rem
+          blanditiis enim ad odio libero quis soluta perspiciatis quo, pariatur
+          suscipit, cupiditate perferendis cumque, consequatur ratione
+          reiciendis inventore! Sunt deleniti quia excepturi assumenda ut
+          corrupti, molestiae suscipit cumque quae sequi aliquam magni
+          praesentium natus. Veritatis, unde reprehenderit? Fugit, provident!
+          Earum?
+        </p>
+        <br />
+
+        <a href="#"> EXPLORE </a>
+      </div>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="Media/fb.png" alt="Facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Media/Insta.png" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Media/Twitter.png" alt="Twitter" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+        
+    </script>
+  </body>
+</html>
